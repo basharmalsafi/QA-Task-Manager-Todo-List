@@ -1,0 +1,359 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "title": "What is Software? Types of Software’s?",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T22:29:04.889Z",
+      "startDate": "2026-01-18",
+      "dueDate": "2026-01-18"
+    },
+    {
+      "id": 3,
+      "title": "What is Software Testing?",
+      "description": "Software testing a part of developing a software and making sure the software is working as per the requirement of user or customer request or needs",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T23:19:55.673Z",
+      "startDate": "2026-01-18",
+      "dueDate": "2026-01-20"
+    },
+    {
+      "id": 4,
+      "title": "What is Software Quality?",
+      "description": "What is software Testing Quality? the objective of testing is to release quality product to the client and  Software testing quality  should be \n1. Bug free\n2. Delivered on Time\n3. Within Budget.\n4. Meets requirements and or expectations of customers\n5. Maintainable ",
+      "priority": "High",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T22:37:17.613Z",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": 5,
+      "title": "Project Vs Product",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Why do we need Testing?",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "Error, Bug & Failure",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Why the software has bugs?",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "SDLC & STLC",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Waterfall Model",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "title": "Spiral Model",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "title": "V-Model",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "title": "QA & QC & QE",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "title": "Different Levels of Software Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "title": "White Box & Black Box Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "title": "Static Testing & Dynamic Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "title": "Verification & Validation",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "title": "System Testing Types",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "title": "GUI Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "title": "Functional & Non-Functional Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 21,
+      "title": "Test Design Techniques",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "title": "Re-Testing & Regression testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "title": "Exploratory Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 24,
+      "title": "Adhoc Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 25,
+      "title": "Sanity & Smoke Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 26,
+      "title": "End-To-End Testing",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 27,
+      "title": "STLC (Software Testing Life Cycle)",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 28,
+      "title": "Use case, Test scenario & Test case",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 29,
+      "title": "Test Environment and Execution",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 30,
+      "title": "Defect Reporting",
+      "description": "",
+      "priority": "Medium",
+      "tags": [
+        "software-testing"
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-19T00:00:00.000Z",
+      "updatedAt": "2026-01-19T00:00:00.000Z"
+    }
+  ],
+  "nextId": 31
+}
