@@ -23,12 +23,12 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-22T20:34:50.570Z",
+      "updatedAt": "2026-01-22T21:12:59.310Z",
       "startDate": "2026-01-18",
       "dueDate": "2026-01-20",
-      "deadlineStatus": "completed"
+      "deadlineStatus": "overdue"
     },
     {
       "id": 4,
@@ -38,12 +38,12 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-22T20:35:08.262Z",
+      "updatedAt": "2026-01-22T21:12:54.457Z",
       "startDate": "",
       "dueDate": "",
-      "deadlineStatus": "completed"
+      "deadlineStatus": "normal"
     },
     {
       "id": 5,
@@ -99,75 +99,99 @@
     },
     {
       "id": 9,
-      "title": "SDLC & STLC",
-      "description": "",
+      "title": "SDLC ",
+      "description": "The SDLC (Software Development Life Cycle) is a structured process used to plan, build, test, deploy, and maintain software. It ensures software is delivered with quality, on time, and within budget.\n🔹 SDLC Process (Simple & Clear)\n1. Requirement Gathering\nUnderstand what the customer wants.\n\nDocument all functional and non‑functional requirements.\n\n2. Feasibility Study\nCheck if the project is technically, financially, and operationally possible.\n\n3. System Design\nCreate high‑level and low‑level designs.\n\nDecide architecture, database design, UI design, and technology stack.\n\n4. Implementation / Coding\nDevelopers write the actual code based on the design.\n\n5. Testing\nTesters verify the software for defects.\n\nIncludes unit, integration, system, and acceptance testing.\n\n6. Deployment\nRelease the software to production for end users.\n\n7. Maintenance\nFix issues, update features, and improve performance after release.",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T21:20:54.969Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 10,
       "title": "Waterfall Model",
-      "description": "",
+      "description": "Requirement Analysis  \nGather and document all system requirements from stakeholders.\n\nSystem Design  \nTranslate requirements into architecture and design specifications.\n\nImplementation  \nDevelop the actual software code based on the design.\n\nTesting  \nVerify and validate the software to ensure it meets requirements and is bug-free.\n\nDeployment  \nRelease the software to the production environment for end users.\n\nMaintenance  \nProvide ongoing support, updates, and bug fixes after deployment.\n✅ Advantages of the Waterfall Model\nHigh product quality due to structured development.\n\nFewer bugs since requirement changes are restricted.\n\nLower initial investment—testers are hired in later stages.\n\nIdeal for small projects with fixed requirements.\n\n⚠️ Disadvantages of the Waterfall Model\nNo flexibility for changing requirements.\n\nEarly requirement defects persist through later phases.\n\nHigher total cost due to time-consuming rework.\n\nTesting begins only after coding is complete.",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T21:04:50.493Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 11,
       "title": "Spiral Model",
-      "description": "",
+      "description": "🔄 Spiral Model – Overview\nThe Spiral Model is an iterative software development model.\n\nIt was designed to overcome the limitations of the Waterfall Model.\n\nIt is used when there is module dependency in the system.\n\nIn each cycle, new software is released to the customer.\n\nSoftware is delivered in multiple versions, which is why it’s also called a version control model.\n\n✅ Advantages of the Spiral Model\nTesting occurs in every cycle before moving to the next.\n\nCustomers can use software for each module, gaining early access.\n\nRequirement changes are allowed after each cycle, offering flexibility.\n⚠️ Disadvantages of the Spiral Model\nRequirement changes are not allowed during a cycle — only between cycles.\n\nEach cycle resembles the Waterfall Model, which may limit agility.\n\nNo testing is done during the requirement and design phases, potentially allowing early issues to persist.",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T21:08:39.044Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 12,
       "title": "V-Model",
-      "description": "",
+      "description": "🔍 Verification\nEnsures we are building the product right.\n\nFocuses on documentation.\n\nHappens before validation.\n\nInvolves activities like reviews, walkthroughs, and inspections.\n\n✅ Validation\nEnsures we are building the right product.\n\nFocuses on the actual software.\n\nTakes place after verification.\n\nInvolves unit testing, integration testing, system testing, and UAT.\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T22:07:24.690Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 13,
       "title": "QA & QC & QE",
-      "description": "",
+      "description": "QA is process related.\nQC is the actual testing of the software.\n\nQA focuses on building in quality.\nQC focuses on testing for quality.\n\nQA is preventing defects.\nQC is detecting defects.\n\nQA is process oriented.\nQC is product oriented.\n\nQA is for the entire life cycle.\nQC is for the testing part of SDLC.\n✅ QA (Quality Assurance)\nProcess-oriented: Focuses on improving and defining processes to prevent defects.\n\nGoal: Build quality into the product from the start.\n\nResponsibility: Often involves managers, analysts, and process designers.\n\nExample activities: Process audits, documentation reviews, training, standards enforcement.\n\n✅ QC (Quality Control)\nProduct-oriented: Involves actual testing of the software to find defects.\n\nGoal: Verify that the product meets quality requirements.\n\nResponsibility: Typically performed by testers and QA engineers.\n\nExample activities: Manual testing, automation, bug reporting, regression testing.\n\n🔁 The \"p - people / process / product\" line:\nPeople → QC (Testers): Testers execute tests and validate the product.\n\nProcess → QA: QA defines and improves the process to ensure quality.\n\nProduct: The final software output, shaped by both QA and QC efforts.\nPlease Note: QC is like manual tester sometime do automation testing \nwhile QE Quality Engineer is Automation Tester who write code ",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T22:02:36.016Z",
+      "deadlineStatus": "normal",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": []
     },
     {
       "id": 14,
-      "title": "Different Levels of Software Testing",
-      "description": "",
+      "title": "Levels of Software Testing",
+      "description": "1. Unit Testing – Example  \nA developer tests a single function, like calculateTotal(), to ensure it returns the correct value for different inputs.\n\n2. Integration Testing – Example  \nAfter combining the Login module and the User Dashboard module, testers verify that a user can log in and the correct dashboard loads without errors.\n\n3. System Testing – Example  \nTesters validate the entire e‑commerce application end‑to‑end: browsing products, adding to cart, checkout, payment, and order confirmation.\n\n4. Acceptance Testing – Example  \nBusiness users perform UAT to confirm the system meets their needs — for example, verifying that a refund workflow matches the company’s real business process.",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-22T22:10:33.939Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 15,
@@ -370,10 +394,25 @@
       "priority": "Medium",
       "tags": [],
       "subtasks": [],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-22T20:46:43.185Z",
-      "updatedAt": "2026-01-22T20:46:43.185Z"
+      "updatedAt": "2026-01-22T21:13:07.400Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 32,
+      "title": "STLC",
+      "description": "🔹 STLC (Software Testing Life Cycle)\nSTLC is a step‑by‑step process followed during testing to ensure software quality. It defines how testing is planned, designed, executed, and closed.\n\nSTLC Phases (Simple & Clear)\n1. Requirement Analysis\nUnderstand what needs to be tested.\n\nIdentify testable and non‑testable requirements.\n\nClarify gaps with BA/Dev if needed.\n\n2. Test Planning\nDefine the testing strategy.\n\nEstimate effort, resources, timelines.\n\nIdentify tools and risks.\n\n3. Test Case Design\nWrite detailed test cases.\n\nPrepare test data.\n\nReview and finalize test scenarios.\n\n4. Test Environment Setup\nPrepare the environment where testing will run.\n\nInstall builds, configure servers, databases, tools.\n\n5. Test Execution\nExecute test cases.\n\nLog defects.\n\nRetest and perform regression testing.\n\n6. Test Closure\nEnsure all planned tests are completed.\n\nPrepare test summary report.\n\nEvaluate quality and lessons learned.",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "pending",
+      "createdAt": "2026-01-22T21:20:32.397Z",
+      "updatedAt": "2026-01-22T22:07:28.587Z",
+      "deadlineStatus": "completed"
     }
   ],
-  "nextId": 32
+  "nextId": 33
 }
