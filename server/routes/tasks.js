@@ -45,21 +45,14 @@ router.get('/:id', (req, res) => {
 // POST create task
 router.post('/', (req, res) => {
     try {
-        const { title, description, startDate, dueDate, priority, tags, status } = req.body;
+        const body = req.body || {};
 
-        if (!title) {
+        if (!body.title) {
             return res.status(400).json({ error: 'Title is required' });
         }
 
-        const newTask = db.createTask({
-            title,
-            description,
-            startDate,
-            dueDate,
-            priority,
-            tags,
-            status
-        });
+        // Pass the full body to db.createTask so optional fields (like subtasks) are preserved
+        const newTask = db.createTask(body);
 
         newTask.deadlineStatus = getDeadlineStatus(newTask.dueDate, newTask.status);
         res.status(201).json(newTask);
@@ -71,17 +64,10 @@ router.post('/', (req, res) => {
 // PUT update task
 router.put('/:id', (req, res) => {
     try {
-        const { title, description, startDate, dueDate, priority, tags, status } = req.body;
+        const body = req.body || {};
 
-        const updatedTask = db.updateTask(req.params.id, {
-            title,
-            description,
-            startDate,
-            dueDate,
-            priority,
-            tags,
-            status
-        });
+        // Pass the full request body through so fields like `subtasks` are not dropped
+        const updatedTask = db.updateTask(req.params.id, body);
 
         if (!updatedTask) {
             return res.status(404).json({ error: 'Task not found' });

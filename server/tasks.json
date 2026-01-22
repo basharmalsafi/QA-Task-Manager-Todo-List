@@ -8,11 +8,12 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T22:29:04.889Z",
+      "updatedAt": "2026-01-19T23:54:50.212Z",
       "startDate": "2026-01-18",
-      "dueDate": "2026-01-18"
+      "dueDate": "2026-01-18",
+      "deadlineStatus": "overdue"
     },
     {
       "id": 3,
@@ -24,9 +25,10 @@
       ],
       "status": "pending",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T23:19:55.673Z",
+      "updatedAt": "2026-01-22T20:34:50.570Z",
       "startDate": "2026-01-18",
-      "dueDate": "2026-01-20"
+      "dueDate": "2026-01-20",
+      "deadlineStatus": "completed"
     },
     {
       "id": 4,
@@ -38,9 +40,10 @@
       ],
       "status": "pending",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T22:37:17.613Z",
+      "updatedAt": "2026-01-22T20:35:08.262Z",
       "startDate": "",
-      "dueDate": ""
+      "dueDate": "",
+      "deadlineStatus": "completed"
     },
     {
       "id": 5,
@@ -50,9 +53,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-19T23:55:24.630Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 6,
@@ -62,9 +66,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-19T23:55:57.169Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 7,
@@ -74,9 +79,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-19T23:55:59.384Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 8,
@@ -86,9 +92,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-19T23:56:00.818Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 9,
@@ -353,7 +360,20 @@
       "status": "pending",
       "createdAt": "2026-01-19T00:00:00.000Z",
       "updatedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 31,
+      "title": "Type of Testing Techniques",
+      "description": "We have Two types of testing techniques one is static and another is dynamic . Static testing is all related to documents while Dynamic testing techniques is related to main software testing \n***Static Testing Technique****\n1, Review\n2, Walkthrough\n3, Inspection\n\n***Dynamic testing Technique***\n1,Unit Testing(testing singe module )\n2,Integration testing ( testing multiple modules ) both unit and integration tests are done by developer and it is called white  box test because the developer know about the code briefly so that's why called white box testing \n3,System testing done by QA and called black box testing beacuase the QA don't know about the code inside \n4, User Acceptance Testing is done by cline or customer \n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "pending",
+      "createdAt": "2026-01-22T20:46:43.185Z",
+      "updatedAt": "2026-01-22T20:46:43.185Z"
     }
   ],
-  "nextId": 31
+  "nextId": 32
 }
