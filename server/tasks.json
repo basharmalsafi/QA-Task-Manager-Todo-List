@@ -232,38 +232,50 @@
     {
       "id": 18,
       "title": "System Testing Types",
-      "description": "",
+      "description": "System Testing\nSystem testing is the process of testing the complete functionality of an application based on the client’s requirements. It is a black-box testing technique performed by the testing team. This type of testing is conducted after component testing and integration testing. It requires a clear understanding of customer requirements and expectations.\nSystem testing focuses on the following aspects:\n- User Interface Testing (GUI)\n- Functional Testing\n- Non-Functional Testing\n- Usability Testing\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-23T14:40:41.394Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 19,
       "title": "GUI Testing",
-      "description": "",
+      "description": "User Interface Testing (GUI) focuses on verifying that the graphical elements of an application function correctly and meet design specifications. It ensures that:\n- 🖱️ All UI components (buttons, menus, icons, forms) are present, responsive, and behave as expected.\n- 🎨 Visual consistency is maintained across screens—fonts, colors, spacing, and alignment match the design.\n- 📱 Cross-platform compatibility is validated—UI behaves properly on different devices, browsers, and resolutions.\n- 🧪 Interactive elements respond to user actions like clicks, hovers, and keyboard input.\n- 🚫 Error messages and validations appear correctly when users input invalid data.\n- 🔍 Accessibility standards are met—screen readers, keyboard navigation, and contrast ratios are tested.\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T16:18:57.841Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 20,
-      "title": "Functional & Non-Functional Testing",
-      "description": "",
+      "title": "Functional",
+      "description": "Functionality Testing\n1)- Object Properties Testing\nExample: Check if the “Submit” button is enabled only after all required fields are filled.\n2)- Database Testing\nExample: Verify that a new user registration correctly inserts data into the users table.\n- Error Handling\nExample: Enter invalid email format and confirm the system shows a clear error message.\n3)- Calculations / Manipulations Testing\nExample: Add items to cart and verify the total price is calculated correctly with tax and discount.\n4)- Links Existence & Links Execution\nExample: Confirm that the “Forgot Password” link is visible and navigates to the correct page.\n5)- Cookies & Sessions\nExample: Log in and check that a session cookie is created and persists until logout.\n🍪 Cookies\nTemporary files created by the browser while browsing pages on the internet.\n⏳ Sessions\nTime slots created by the server. A session will expire after some time (especially if you're idle).\n\n\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T16:57:49.421Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 21,
@@ -412,7 +424,76 @@
       "createdAt": "2026-01-22T21:20:32.397Z",
       "updatedAt": "2026-01-22T22:07:28.587Z",
       "deadlineStatus": "completed"
+    },
+    {
+      "id": 34,
+      "title": "Non-Functional Testing",
+      "description": "1. Performance Testing\n(Load Testing, Stress Testing, Volume Testing)\n- Load Testing:\nWe gradually increase the load — for example, 1 user, then 2 users, then 3 users, and so on — up to the required limit.\n- Stress Testing:\nWe suddenly add a high load (e.g., +20 users at once) or suddenly remove a large number of users (e.g., –100 users) to see how the system behaves under extreme conditions.\n- Volume Testing:\nWe check how much data the system can handle — how much data storage or data volume it can afford without performance issues.\n\n2. Security Testing\n(Authentication and Authorization)\n- Authentication: Verifies the user is who they claim to be (login, password, OTP).\n- Authorization: Verifies what the user is allowed to access after login (roles, permissions).\n\n3. Recovery Testing\nChecks how well the system recovers from crashes, failures, or unexpected shutdowns.\n\n4. Compatibility Testing\n- Forward Compatibility: Supports newer versions (e.g., new browser version).\n- Backward Compatibility: Supports previous versions.\n- Hardware Compatibility: Works correctly on different hardware configurations.\n\n5. Configuration Testing\nTests the application under different configurations (OS, browsers, network settings, memory, CPU, etc.).\n\n6. Installation Testing\nChecks installation and uninstallation processes to ensure they work smoothly without errors.\n\n7. Sanitation / Garbage Testing\nEnsures there are no extra or unwanted features that the customer did not request.\nExample:\nA developer adds a new page or feature that was not part of the requirement — this should be flagged.\n",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-23T15:16:50.369Z",
+      "updatedAt": "2026-01-25T17:11:35.922Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 35,
+      "title": "Object properties testing",
+      "description": "Object properties testing: Check the properties of objects present on the Application.\nEx: Enable, disable, visible, Focus...\nDatabase Testing / Backend Testing\nDML Operations (Data Manipulation Language):\n- insert\n- update\n- delete\n- select\n1. Object Properties Testing – Examples\nExample 1: Login Button (Enabled/Disabled)\n- Scenario: User enters username but leaves password empty\n- Expected: Login button should remain disabled\nExample 2: Submit Button Visibility\n- Scenario: User selects “Other” in a dropdown\n- Expected: A text field labeled “Please specify” becomes visible\nExample 3: Focus Check\n- Scenario: User presses the Tab key on the login page\n- Expected: Cursor moves from Username → Password → Login Button in correct order\nExample 4: Field Enabled/Disabled\n- Scenario: User checks “Same as Billing Address”\n- Expected: Shipping address fields become disabled\n\n2. Database Testing (DML Operations) – Examples\nINSERT Example\n- Action: User registers a new account\n- Expected DB Result: A new row is inserted into users table with correct username, email, and timestamp\nUPDATE Example\n- Action: User updates their profile picture\n- Expected DB Result: profile_image column in users table is updated for that user ID\nDELETE Example\n- Action: User deletes an item from their shopping cart\n- Expected DB Result: Corresponding row is removed from cart_items table\nSELECT Example\n- Action: User logs in\n- Expected DB Result: System runs a SELECT query to fetch user credentials and returns correct user record",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "pending",
+      "createdAt": "2026-01-23T15:17:58.329Z",
+      "updatedAt": "2026-01-23T15:17:58.329Z"
+    },
+    {
+      "id": 36,
+      "title": "Gray Box testing",
+      "description": "Gray box testing means the tester has partial knowledge of how the system works internally and uses that information to design better tests.\nExample:\nYou know the database has a unique email constraint, so during registration you try entering an email that already exists to verify the system shows the correct error. and don't know who the login code functionality work that only developer know that's why it is called gray box testing \n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-23T15:22:11.059Z",
+      "updatedAt": "2026-01-25T16:59:09.744Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 37,
+      "title": "Data Base Testing",
+      "description": "🗄️ Database Testing / Backend Testing\n🔹 DML Operations (Data Manipulation Language)\n- Insert → User registers a new account; a new row is inserted into the users table.\n- Update → User changes their phone number; the contact_number field is updated in the database.\n- Delete → User deletes a saved address; the corresponding row is removed from addresses table.\n- Select → System fetches user profile details during login using a SELECT query.\n\n🔹 Table & Column Level Validations\n- Column Type → Ensure email column is of type VARCHAR, not INT.\n- Column Length → Verify username column allows up to 50 characters.\n- Number of Columns → Check that orders table has exactly 8 columns as per design.\n\n🔹 Relations Between Tables (Normalization)\n- Ensure customer_id in orders table correctly links to customers table via foreign key.\n- Verify no redundant data exists across tables (e.g., address stored separately, not repeated).\n\n🔹 Functions\n- Test a function that calculates total cart value based on item prices and quantities.\n🔹 Procedures\n- Validate a stored procedure that processes order placement and updates inventory.\n🔹 Triggers\n- Check that a trigger automatically logs changes to user_status in an audit table.\n🔹 Indexes\n- Ensure index on email column speeds up login query performance.\n🔹 Views\n- Test a view that shows active users with recent orders, combining data from multiple tables.\n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-23T15:28:27.162Z",
+      "updatedAt": "2026-01-25T16:59:03.133Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 38,
+      "title": "Useability Testing",
+      "description": "Useability means easiness  \nDeveloper should provide help menu or manual pdf document for user instructions how to use the application \nUsability Testing evaluates how easy, intuitive, and pleasant it is for real users to interact with the application. It focuses on the human experience, not just functionality. Strong usability testing helps ensure that users can complete tasks smoothly without confusion or frustration.\n🌟 What Usability Testing Checks\n- Ease of navigation\nUsers should move through the application without getting lost or needing instructions.\n- Learnability\nNew users should understand how to use the system quickly, without a steep learning curve.\n- Efficiency\nCommon tasks should require minimal steps and effort.\n- Error prevention & recovery\nThe system should prevent mistakes where possible and provide clear, helpful messages when errors occur.\n- User satisfaction\nThe overall experience should feel smooth, intuitive, and pleasant.\n- Accessibility\nThe application should support users with disabilities—keyboard navigation, screen readers, proper contrast, etc.\n🎯 Why It Matters\nEven a perfectly functional system fails if users struggle to use it. Usability testing ensures the product feels natural and user‑friendly, which directly impacts adoption, satisfaction, and business success.\n",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-25T16:23:24.972Z",
+      "updatedAt": "2026-01-25T16:52:19.124Z",
+      "deadlineStatus": "normal"
     }
   ],
-  "nextId": 33
+  "nextId": 39
 }
