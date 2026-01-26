@@ -196,14 +196,18 @@
     {
       "id": 15,
       "title": "White Box & Black Box Testing",
-      "description": "",
+      "description": "Black Box Testing\nBlack Box Testing focuses on what the application does, not how it works internally.\nKey Points\n- Tester does not know the internal code, logic, or structure\n- Testing is based on requirements, inputs, and outputs\n- You treat the system like a “black box” — only the UI or API behavior matters\nExamples\n- Functional testing\n- Smoke testing\n- Regression testing\n- Boundary value analysis\n- Equivalence partitioning\nWhen used\n- During System Testing, Acceptance Testing, and UAT\n\n⚪ White Box Testing\nWhite Box Testing focuses on how the application works internally — code, logic, and structure.\nKey Points\n- Tester knows the internal code, logic, loops, conditions, and paths\n- Testing is based on code coverage\n- Usually done by developers or SDETs with code access\nExamples\n- Unit testing\n- Code coverage testing\n- Path testing\n- Loop testing\n- Condition/decision testing\nWhen used\n- During Unit Testing and sometimes Integration Testing\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T17:15:23.451Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 16,
@@ -213,9 +217,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T22:27:54.814Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 17,
@@ -225,9 +230,10 @@
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T22:28:03.256Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 18,
@@ -280,74 +286,98 @@
     {
       "id": 21,
       "title": "Test Design Techniques",
-      "description": "",
+      "description": "Test design techniques are structured methods used to create effective test cases that maximize coverage while minimizing effort. They help QA engineers identify what to test, how to test it, and ensure that critical scenarios are not missed.\n . They help QA engineers identify what to test, how to test it, and ensure that critical scenarios are not missed.\n\n🧪 What Is a Test Design Technique?\nTest design techniques are part of the test planning phase in software testing. They guide testers in selecting test conditions, creating test cases, and organizing test data to validate software functionality efficiently.\n🎯 Purpose\n- Improve test coverage\n- Reduce redundant test cases\n- Catch edge cases and hidden bugs\n- Ensure system reliability\nfor example there is a age text box and it should accept data between 18-35 so we before applying test designee technique we have to check the invalid data before 18 and valid data between 18-35 and again invalid data after 35-& so if we apply test designee technique there is simple function the apply for it which will sample check the entered data whither it's valid or no ",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-26T14:53:20.640Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 22,
-      "title": "Re-Testing & Regression testing",
-      "description": "",
+      "title": "Re-Testing",
+      "description": " Re-Testing\nRe-testing is performed when a developer fixes a bug and the tester verifies the fix.\nProcess:\n- If the bug is resolved, the tester closes it.\n- If the bug is not resolved, the tester re-opens it and sends it back to the developer.\nPurpose:\nTo ensure that previously identified defects are fixed in the current build.\nExample:\n- Build 1.0 was released.\n- Test team found defects (Defect IDs: 1.0.1, 1.0.2) and posted them.\n- Build 1.1 was released.\n- Testing defects 1.0.1 and 1.0.2 in Build 1.1 is called Re-testing.\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T18:10:44.182Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 23,
       "title": "Exploratory Testing",
-      "description": "",
+      "description": "Exploratory Testing is a testing that we don't have the documents and don't involved in with developer we will make a file as we start testing it one by one \nExploratory Testing\n- We explore the application, understand it completely, and then test it.\n- Understand the application, identify all possible scenarios, document them, and use them for testing.\n- Exploratory testing is done when the application is ready but there are no formal requirements.\n- Test engineers perform exploratory testing in the absence of documented requirements.\nDrawbacks:\n- You might misunderstand a feature as a bug or a bug as a feature since there are no requirements.\n- It is time-consuming.\n- If there is a bug in the application, you might not notice it.\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T22:08:08.187Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 24,
       "title": "Adhoc Testing",
-      "description": "",
+      "description": "Adhoc Testing\n- No documentation\n- No test plan\n- Informal testing\n- Tester knows the application functionality\n- Random testing\n- Goal: Break the application or find corner defects\n- Used for any application\nMonkey Testing\n- No documentation\n- No test plan\n- Informal testing\n- Tester does not know the application functionality\n- Random testing\n- Goal: Break the application or find corner defects\n- Mostly used for gaming applications\nExploratory Testing\n- No documentation\n- No test plan\n- Informal testing\n- Tester does not know the application functionality\n- Random testing\n- Goal: Learn and explore the functionality of the application\n- Used for any application that is new to the tester\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T22:12:01.732Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 25,
       "title": "Sanity & Smoke Testing",
-      "description": "",
+      "description": "1)smoke testing is done at the first build multiple times in every build to make sure the application can be install and we can perform the sanity testing can be done. And it is done by the Developer \n2)Sanity testing will be done after smoke testing  and it check the basic functionality, if there was a bug fixed we will check weither the bug is fixed and other functional is working or not.\nSmoke Testing\n- Done to check if the build is stable and testable\n- Performed by developers and testers\n- Can be done on unstable builds\n- Happens on initial builds\n- Part of basic testing\n- Done every time a new build is released\nSanity Testing\n- Done to check main functionalities after bug fixes or small changes\n- Performed by testers only\n- Requires a relatively stable build\n- Happens on stable builds\n- Part of regression testing\n- Used when there’s not enough time for full testing\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-25T22:10:20.596Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 26,
       "title": "End-To-End Testing",
-      "description": "",
+      "description": "End-to-End Testing\n- It means testing the entire flow of the application from start to finish\n- Verifies that all modules work together and data flows correctly across them\n- Ensures that the system behaves as expected in a real-world scenario\nExample Flow:\n- Login\n- Add New Customer\n- Edit Customer\n- Delete Customer\n- Logout\nThis full sequence is tested to confirm that all parts of the system are integrated and functioning properly.\n",
       "priority": "Medium",
       "tags": [
         "software-testing"
       ],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-19T00:00:00.000Z",
-      "updatedAt": "2026-01-19T00:00:00.000Z"
+      "updatedAt": "2026-01-26T14:53:03.173Z",
+      "startDate": "",
+      "dueDate": "",
+      "subtasks": [],
+      "deadlineStatus": "normal"
     },
     {
       "id": 27,
@@ -448,9 +478,10 @@
       "priority": "Medium",
       "tags": [],
       "subtasks": [],
-      "status": "pending",
+      "status": "completed",
       "createdAt": "2026-01-23T15:17:58.329Z",
-      "updatedAt": "2026-01-23T15:17:58.329Z"
+      "updatedAt": "2026-01-25T22:09:43.993Z",
+      "deadlineStatus": "normal"
     },
     {
       "id": 36,
@@ -493,7 +524,133 @@
       "createdAt": "2026-01-25T16:23:24.972Z",
       "updatedAt": "2026-01-25T16:52:19.124Z",
       "deadlineStatus": "normal"
+    },
+    {
+      "id": 39,
+      "title": "Regression Testing ",
+      "description": "Regression Testing\nRegression testing is performed on a modified build to ensure that changes (adding, deleting, or modifying features) do not impact existing functionality.\nTypes of Regression Testing:\n\n1. Unit Regression Testing\n- Testing only the changes/modifications done by the developer.\n\n2. Regional Regression Testing\n- Testing the modified module along with the impacted modules.\n- An Impact Analysis meeting is conducted to identify impacted modules with QA & Dev teams.\n\n3. Full Regression Testing\n- Testing the main feature and the entire remaining application.\n- Example: If the developer has made changes in many modules, instead of identifying each impacted module, we perform one round of full regression.\n",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-25T17:43:00.636Z",
+      "updatedAt": "2026-01-25T22:09:12.997Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 40,
+      "title": "Software testing Terminology ",
+      "description": "1)Regression Testing \n2)Re-testing(we test bug fixed module )\n3)Smoke testing and Sanity testing\n4)explority testing\n5)Adhoc Testing\n6)Monkey testing\n7)Positive and negative testing\n8)End To End Testing\n9)Globalization and Localization Testing ",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-25T18:08:48.866Z",
+      "updatedAt": "2026-01-25T22:27:33.367Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 41,
+      "title": "Negative and positive testing ",
+      "description": "\nNegative Testing\n- Testing the application with invalid inputs\n- Purpose: To check if the system handles errors properly\n- The application should either reject the input or show an error message\nExample:\nIf a field says “Enter only numbers” and you type abcdef, that’s negative testing.\nThe system should not accept it or should show a message like “Invalid input.”\nPositive Testing\n- Testing the application with valid inputs\n- Checks if the system behaves as expected when correct data is entered\n- The goal is to confirm that the application accepts valid input and performs the correct action\nExample:\nIf a field accepts only numbers, entering 99999 is positive testing.\nThe system should accept it without errors.\n\n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-25T22:11:42.409Z",
+      "updatedAt": "2026-01-25T22:11:44.938Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 42,
+      "title": "Equivalence Class Partition   ",
+      "description": "in this Test design technique we divides data in to multiple classes and then check it for example checking 1-500 we check the invalid portion which is -0 and same the numbers after 500 which is also invalid portion we check that too and then check the number between 1-500 which is positive test case.  ",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T14:57:45.360Z",
+      "updatedAt": "2026-01-26T15:08:45.736Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 43,
+      "title": "Boundary Value Analysis (BVA)",
+      "description": "Boundary Value Analysis (BVA)\nBVA technique used to check Boundaries of the input.\nEnter a Age:\n- Allow Digits from 18--35\nBoundary Values:\n- Min-1 = 17 (Fail)\n- Min = 18 (Pass)\n- Min+1 = 19 (Pass)\n- Max-1 = 34 (Pass)\n- Max = 35 (Pass)\n- Max+1 = 36 (Fail)\nSummary of Results:\n- Min = 18 (Pass)\n- Min-1 = 17 (Fail)\n- Min+1 = 19 (Pass)\n- Max = 35 (Pass)\n- Max-1 = 34 (Pass)\n- Max+1 = 36 (Fail)\n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T15:03:47.685Z",
+      "updatedAt": "2026-01-26T15:08:43.004Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 44,
+      "title": "Input domain Testing",
+      "description": "in this testing we test the value in input filed (text box) using ECP and BVA techniques ",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T15:11:04.475Z",
+      "updatedAt": "2026-01-26T15:11:09.629Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 45,
+      "title": "Decision Table Technique",
+      "description": " What Is Decision Table Testing?\nDecision Table Testing is a test design technique used when the system’s behavior depends on multiple conditions.\nIt helps you cover all possible combinations of inputs and rules in a structured way.\nDecision Table Example...\nConditions:\n- Condition1: Account already approved\n- Condition2: OTP Matched\n- Condition3: Sufficient Money in the Account\nActions:\n- Action1: Transfer Money\n- Action2: Show message 'Insufficient Amount'\n- Action3: Block the transaction in case of suspicious transaction\nHandwritten Notes:\n- TC1: Valid\n- TC2: No Gi\n- TC5: Invalid\n- Circle around \"Execute\" in TC4 under Action3\n- Check marks above TC1 to TC5\n- Check mark next to TC5 Condition2 row\n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T15:38:06.470Z",
+      "updatedAt": "2026-01-26T15:50:12.561Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 46,
+      "title": "State Transection Technique and table",
+      "description": "🔄 What Is State Transition Testing?\nState Transition Testing is a technique used to test how a system behaves when it moves from one state to another based on user actions or inputs.\nIt’s useful when:\n- The system has different states\n- The output depends on past actions\n- You want to test valid and invalid transitions\nState Transition Example\nStates:\n- S1: FIRST ATTEMPT\n- S2: SECOND ATTEMPT\n- S3: THIRD ATTEMPT\n- S4: HOME PAGE\n- S5: ACCOUNT LOCKED\nTransitions:\n- From S1:\n- Correct password → S4\n- Incorrect password → S2\n- From S2:\n- Correct password → S4\n- Incorrect password → S3\n- From S3:\n- Correct password → S4\n- Incorrect password → S5\nState Transition Table:\n|  |  |  |  | \n|  |  |  |  | \n|  |  |  |  | \n|  |  |  |  | \n|  |  |  |  | \n|  |  |  |  | \n\n\n\n\n",
+      "startDate": "",
+      "dueDate": "",
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T15:47:00.984Z",
+      "updatedAt": "2026-01-26T15:50:54.619Z",
+      "deadlineStatus": "normal"
+    },
+    {
+      "id": 47,
+      "title": "Error Quessing",
+      "description": "Test Case: Error Guessing – Form Submission Validation\nTest Objective:\nVerify that the system handles unexpected or invalid inputs based on tester intuition and experience.\nTest Technique:\nError Guessing\nTest Steps:\n- Open the target form page.\n- Leave all fields blank and click Submit.\n- Enter alphabets (e.g., \"abc\") in a numeric-only field.\n- Enter special characters (e.g., \"@#$\") in restricted fields.\n- Enter extremely long text in a short input field.\n- Skip mandatory fields and attempt submission.\nExpected Results:\n- System should display appropriate error messages.\n- Form should not be submitted.\n- Numeric fields should reject non-numeric input.\n- Mandatory fields should trigger validation alerts.\nNotes:\nThis test relies on tester’s experience to guess likely failure points not covered by formal test design.\n",
+      "startDate": null,
+      "dueDate": null,
+      "priority": "Medium",
+      "tags": [],
+      "subtasks": [],
+      "status": "completed",
+      "createdAt": "2026-01-26T15:51:40.542Z",
+      "updatedAt": "2026-01-26T15:51:43.637Z",
+      "deadlineStatus": "normal"
     }
   ],
-  "nextId": 39
+  "nextId": 48
 }
